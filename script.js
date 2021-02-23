@@ -1,4 +1,5 @@
 'use strict';
+let scores, currentScore, activePlayer, flag;
 const player0El = document.querySelector('.player--0');
 const player1El = document.querySelector('.player--1');
 const diceEl = document.querySelector('.dice');
@@ -9,7 +10,6 @@ const current1El = document.getElementById('current--1');
 const btnRestart = document.querySelector('.btn--new');
 const btnRollDice = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
-let scores, currentScore, activePlayer, flag;
 
 
 const init = function()
